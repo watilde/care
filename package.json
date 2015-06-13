@@ -1,0 +1,22 @@
+{
+  "name": "care",
+  "version": "1.0.0",
+  "description": "Easy to make your software careware using only one require",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/care.git"
+  },
+  "keywords": [
+    "careware"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/care/issues"
+  },
+  "homepage": "https://github.com/watilde/care"
+}
