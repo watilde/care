@@ -66,10 +66,18 @@ WWF ジャパンは、日本国内および日本が関係している国際的�
 
 Would you like to donate to this?
 
+? Payer: (Use arrow keys)
+❯ PayPal
+  Venmo
+
 ? Currency: (Use arrow keys)
 ❯ AUD
  JPY
  USD
+
+? Amount: 100
+
+? Donate 100 AUD ?: (Y/n)
 ```
 
 Code example
