@@ -7,7 +7,7 @@
     "care": "bin/care.js"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
