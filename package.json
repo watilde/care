@@ -16,7 +16,10 @@
   "keywords": [
     "careware"
   ],
-  "author": "Daijiro Wachi",
+  "authors": [
+    "Daijiro Wachi",
+    "Robert Gravina"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/watilde/care/issues"
