@@ -2,7 +2,7 @@
   "name": "care",
   "version": "0.0.1",
   "description": "A simple way to add careware and donation support to your node.js modules",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
     "care": "bin/care.js"
   },
