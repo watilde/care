@@ -14,6 +14,9 @@ var donation = care.init({
   },
   venmo: {
     id: 'cafegrumpy'
+  },
+  justgiving: {
+    id: '305727'
   }
 });
 
