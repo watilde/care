@@ -12,7 +12,7 @@ Usage: care [options]
 Options:
 
   -h, --help     usage information
-  -V, --version  ersion number
+  -V, --version  version number
   -o, --login    get an access token
   -x, --logout   remove your access token
 ```
