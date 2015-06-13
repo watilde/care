@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+var argv = process.argv;
+if (argv[2] !== 'donate') return;
+
 /* CODE EXAMPLE */
 
 var care = require('./lib/index.js');
