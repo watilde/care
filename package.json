@@ -1,10 +1,13 @@
 {
   "name": "care",
   "version": "0.0.1",
-  "description": "Easy to make your software careware using only one require",
+  "description": "A simple way to add careware and donation support to your node.js modules",
   "main": "index.js",
+  "bin": {
+    "care": "bin/care.js"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +16,10 @@
   "keywords": [
     "careware"
   ],
-  "author": "Daijiro Wachi",
+  "authors": [
+    "Daijiro Wachi",
+    "Robert Gravina"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/watilde/care/issues"
