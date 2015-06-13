@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/watilde/care/issues"
   },
-  "homepage": "https://github.com/watilde/care"
+  "homepage": "https://github.com/watilde/care",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "inquirer": "^0.8.5"
+  }
 }
