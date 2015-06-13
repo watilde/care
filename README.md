@@ -1,5 +1,5 @@
 # care
-Easy to make your software careware by require once
+A simple way to add careware and donation support to your node.js modules.
 
 ## CLI User
 ### Install
@@ -11,19 +11,19 @@ Usage: care [options]
 
 Options:
 
-  -h, --help     output usage information
-  -V, --version  output the version number
-  -o, --login    get your access token
+  -h, --help     usage information
+  -V, --version  ersion number
+  -o, --login    get an access token
   -x, --logout   remove your access token
 ```
 
 ### Login
-Currently you need to get business account and create an application for getting access_token
+Firstly, you must create a business account on Paypal and an application which care will use to pay other accounts.
 ```
 $ care --login
 Obtaining access_token from PayPal.
-? Your client_id in PayPal: blahblahblahblahblahblah
-? Your client_secret in PayPal: ****************************
+? Your application client_id : blahblahblahblahblahblah
+? Your application client_secret : ****************************
 
 Success!
 ```
@@ -31,17 +31,17 @@ Success!
 ### Logout
 ```
 $ care --logout
-Remove your access_token from local.
+Remove your access_token from the local filesystem.
 ```
 
-## Development to use
+## Using Care
 ### Install
 ```
 $ npm install --save care
 ```
 
 ### Usage
-Just require once, it's sooo easy:
+Just require the package passing the details of the account you wish to receive donations:
 ```js
 var care = require('care') {
   name: '',
@@ -55,7 +55,7 @@ console.log(message);
 ```
 
 ## Example
-Create a donate feature in your cli-app. In this case, you are cli-app called `nyan` developer. Your goal is  create a `donate` feature like the following:
+Create a donate feature for your cli-app. For example, say you are creating a cli-app called `nyan`. You can create a `donate` feature like the following:
 ```
 $ nyan donate
 Organizer name: blahblah
