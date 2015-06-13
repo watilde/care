@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Easy to make your software careware using only one require",
   "main": "index.js",
+  "bin": {
+    "care": "bin/care.js"
+  },
   "scripts": {
     "test": "npm test"
   },
