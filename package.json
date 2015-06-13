@@ -28,6 +28,6 @@
   "dependencies": {
     "commander": "^2.8.1",
     "inquirer": "^0.8.5",
-    "paypal-rest-sdk": "^1.5.3"
+    "paypal-rest-sdk": "git://github.com/watilde/PayPal-node-SDK"
   }
 }
