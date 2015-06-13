@@ -1,7 +1,7 @@
 {
   "name": "care",
   "version": "0.0.1",
-  "description": "Easy to make your software careware by require once",
+  "description": "A simple way to add careware and donation support to your node.js modules",
   "main": "index.js",
   "bin": {
     "care": "bin/care.js"
