@@ -66,7 +66,7 @@ WWF ジャパンは、日本国内および日本が関係している国際的�
 
 Would you like to donate to this?
 
-? Payer: (Use arrow keys)
+? Payment method: (Use arrow keys)
 ❯ PayPal
   Venmo
 
