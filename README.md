@@ -43,36 +43,47 @@ $ npm install --save care
 ### Usage
 Just require the package passing the details of the account you wish to receive donations:
 ```js
-var care = require('care') {
-  name: '',
-  description: '',
-  email: ''
-};
+var care = require('care');
+var donation = care.init({
+  name: "Target organization name to donate",
+  description: "What kind of organizer?",
+  email: "Target organization email to donate in PayPal",
+});
+donation.request();
 
-var message = '';
-message += care;
-console.log(message);
 ```
 
 ## Example
 Create a donate feature for your cli-app. For example, say you are creating a cli-app called `nyan`. You can create a `donate` feature like the following:
 ```
 $ nyan donate
-Organizer name: blahblah
-Description: blahblahblah
-Amount: | // you typed
+~ WWFジャパン ~
+
+WWFは、人類が自然と調和して生きられる未来を目指し、
+約100カ国で活動している環境保全団体です。
+
+WWF ジャパンは、日本国内および日本が関係している国際的な問題に取り組みます。
+
+Would you like to donate to this?
+
+? Currency: (Use arrow keys)
+❯ AUD
+ JPY
+ USD
 ```
 
 Code example
 ```js
+#!/usr/bin/env node
 var argv = process.argv;
-var care = require("care");
-var opt = {
-  name: "blahblah",
-  description: "blahblahblah",
-  email: 'blahblah'
-};
+if (argv[2] !== 'donate') return;
 
-if (argc[2] === 'donate') {
-}
+var care = require('care');
+var donation = care.init({
+  name: "WWFジャパン",
+  description: "WWFは、人類が自然と調和して生きられる未来を目指し、\n約100カ国で活動している環境保全団体です。\n\nWWF ジャパンは、日本国内および日本が関係している国際的な問題に取り組みます。",
+  email: 'robert.gravina-buyer@gmail.com',
+});
+
+donation.request();
 ```
