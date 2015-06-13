@@ -1,7 +1,7 @@
 {
   "name": "care",
   "version": "0.0.1",
-  "description": "Easy to make your software careware using only one require",
+  "description": "Easy to make your software careware by require once",
   "main": "index.js",
   "bin": {
     "care": "bin/care.js"
