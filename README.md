@@ -1,4 +1,4 @@
-# care ![image](http://care-server.herokuapp.com/care/badge/grunt/wwf-japan/JPY/)
+# care ![image](http://care-server.herokuapp.com/care/badge/grunt/wwf-japan/JPY.svg)
 
 A simple way to add careware and donation support to your node.js modules.
 
