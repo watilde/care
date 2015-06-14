@@ -30,6 +30,7 @@
     "inquirer": "^0.8.5",
     "lodash": "~3.9.3",
     "opener": "^1.4.1",
-    "paypal-rest-sdk": "git://github.com/watilde/PayPal-node-SDK"
+    "paypal-rest-sdk": "git://github.com/watilde/PayPal-node-SDK",
+    "request": "~2.57.0"
   }
 }
